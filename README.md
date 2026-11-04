@@ -22,21 +22,21 @@ The local evidence run deliberately does not scan the complete datasets:
 - NavSim shard 5: 10 consecutive frames.
 - Native nuScenes: `scene-0003` and `scene-0004`, 80 complete keyframes total.
 
-Generated images and evidence are local-only and are ignored by Git. The links
-below work in the working copy after the bounded run has been executed; result
-images are not committed or pushed.
+The repository keeps four small representative images below so the README
+renders on GitHub. The complete per-frame outputs and metrics remain local-only
+under the ignored `artifacts/` directory.
 
 ### Phase 1 visual examples
 
-![Phase 1 camera](artifacts/phase_runs/nuscenes_shard1/phase1/camera/0000_fd8420396768425eabec9bdddf7e64b6.jpg)
+![Phase 1 camera montage](docs/assets/phase1/nuscenes_camera.jpg)
 
-![Phase 1 BEV](artifacts/phase_runs/nuscenes_shard1/phase1/bev/0000_fd8420396768425eabec9bdddf7e64b6.jpg)
+![Phase 1 BEV with boxes, track IDs and history](docs/assets/phase1/nuscenes_bev.jpg)
 
 ### Phase 2 visual examples
 
-![Phase 2 camera](artifacts/phase_runs/nuscenes_shard1/phase2/camera/0000_fd8420396768425eabec9bdddf7e64b6.jpg)
+![Phase 2 camera montage](docs/assets/phase2/nuscenes_camera.jpg)
 
-![Phase 2 BEV](artifacts/phase_runs/nuscenes_shard1/phase2/bev/0000_fd8420396768425eabec9bdddf7e64b6.jpg)
+![Phase 2 temporal-query BEV with boxes, track IDs and history](docs/assets/phase2/nuscenes_bev.jpg)
 
 The local evidence folders also contain per-frame images, camera/BEV montages,
 `tracks.json`, `metrics.json` and `evidence.md`:
