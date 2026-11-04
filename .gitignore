@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.conda/
+
+# Datasets, checkpoints, and generated artifacts
+data/
+weights/
+checkpoints/
+runs/
+outputs/
+artifacts/
+reports/phase*/
+reports/phase*/figures/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+runtime:
+  seed: 0
+  device: cuda:0
+paths:
+  checkpoint: ${YOLO2D_CHECKPOINT}
+dataset:
+  name: nuscenes
+  version: v1.0-mini
+  root: ${NUSCENES_ROOT}

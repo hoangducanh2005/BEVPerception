@@ -1,0 +1,43 @@
+# Phase 1 verified installation target for the MMDetection3D dev-1.x checkout
+# at commit 962f093736ffe55c089bc618842a8b8567318c8c.
+#
+# Install PyTorch first from the official CUDA 12.1 index:
+# python -m pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 \
+#   --index-url https://download.pytorch.org/whl/cu121
+# The OpenMMLab wheel host timed out on this machine. The verified fallback was
+# a CUDA-enabled source build (not mmcv-lite):
+# CUDA_HOME=/usr/lib/nvidia-cuda-toolkit MMCV_WITH_OPS=1 \
+# TORCH_CUDA_ARCH_LIST=8.9 MAX_JOBS=2 \
+# python -m pip install --no-build-isolation --no-deps --no-binary=mmcv mmcv==2.1.0
+
+numpy==1.26.4
+PyYAML==6.0.2
+mmengine==0.10.7
+mmdet==3.2.0
+mmcv==2.1.0
+setuptools==68.2.2
+triton==2.1.0
+nuscenes-devkit==1.2.0
+numba==0.59.1
+llvmlite==0.42.0
+pyquaternion==0.9.9
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+pytest==8.3.3
+ruff==0.6.9
+
+# Runtime packages used by the local checkout:
+lyft-dataset-sdk==0.0.8
+plyfile==1.1.2
+scikit-image==0.24.0
+tensorboard==2.18.0
+trimesh==4.5.0
+cachetools==5.5.0
+descartes==1.1.0
+fire==0.7.0
+parameterized==0.9.0
+scikit-learn==1.5.2
+Shapely==2.0.3
+
+# Heavy package not completed in this setup because its download stalled:
+# open3d==0.18.0
