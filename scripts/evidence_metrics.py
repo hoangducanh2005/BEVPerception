@@ -133,3 +133,28 @@ def aggregate_frame_metrics(frames: Sequence[Mapping[str, Any]]) -> dict[str, An
             "note": "bounded center-distance/instance-token diagnostic; not official nuScenes AMOTA/AMOTP",
         },
     }
+
+
+def aggregate_temporal_metrics(frames: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    """Summarize frozen-BEV alignment and persistent query-state diagnostics."""
+
+    temporal = [frame.get("temporal_bev", {}) for frame in frames]
+    deltas = [float(item["mean_abs_delta"]) for item in temporal if item.get("mean_abs_delta") is not None]
+    cosines = [float(item["cosine_similarity"]) for item in temporal if item.get("cosine_similarity") is not None]
+    valid = [float(item["valid_fraction"]) for item in temporal if item.get("valid_fraction") is not None]
+    queries = [frame.get("query_state", {}) for frame in frames]
+    query_cosines = [float(item["mean_query_cosine"]) for item in queries if item.get("mean_query_cosine") is not None]
+    query_counts = [int(item.get("num_queries", 0)) for item in queries]
+    return {
+        "temporal_bev": {
+            "frames_with_previous": len(cosines),
+            "mean_abs_delta": float(np.mean(deltas)) if deltas else None,
+            "mean_cosine_similarity": float(np.mean(cosines)) if cosines else None,
+            "mean_valid_fraction": float(np.mean(valid)) if valid else None,
+        },
+        "query_state": {
+            "frames_with_query_updates": sum(1 for item in queries if int(item.get("num_queries_updated", 0)) > 0),
+            "mean_query_cosine": float(np.mean(query_cosines)) if query_cosines else None,
+            "max_active_queries": max(query_counts) if query_counts else 0,
+        },
+    }

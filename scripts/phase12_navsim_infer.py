@@ -32,8 +32,14 @@ from phase1_navsim_infer import (  # noqa: E402
     load_pcd,
     make_info,
 )
-from bevdrive.tracking import DetectionMeasurement, TrackManager  # noqa: E402
-from evidence_metrics import aggregate_frame_metrics, match_detection_and_tracking  # noqa: E402
+from bevdrive.tracking import (  # noqa: E402
+    DetectionMeasurement,
+    TemporalBEVMemory,
+    TemporalQueryBank,
+    TrackManager,
+    attach_bev_feature_capture,
+)
+from evidence_metrics import aggregate_frame_metrics, aggregate_temporal_metrics, match_detection_and_tracking  # noqa: E402
 
 
 def parse_args() -> argparse.Namespace:
@@ -248,6 +254,7 @@ def main() -> int:
     if config.test_dataloader.dataset.pipeline[0].get("num_views", None) is not None:
         config.test_dataloader.dataset.pipeline[0].num_views = len(CAMERA_MAP)
     model = init_model(config, str(args.checkpoint), device=args.device)
+    bev_capture, bev_hook = attach_bev_feature_capture(model)
     if args.device.startswith("cuda"):
         torch.cuda.reset_peak_memory_stats()
 
@@ -263,7 +270,15 @@ def main() -> int:
 
     all_evidence: dict[str, list[dict[str, Any]]] = {"phase1": [], "phase2": []}
     previous_gt_tracks: dict[str, dict[str, int]] = {"phase1": {}, "phase2": {}}
+    temporal_memory = TemporalBEVMemory()
+    query_bank = TemporalQueryBank(ema=0.7)
+    last_scene_id: str | None = None
     for frame_index, (record, data) in enumerate(zip(records, data_list)):
+        scene_id = str(record["scene_token"])
+        if scene_id != last_scene_id:
+            temporal_memory.reset()
+            query_bank.reset()
+            last_scene_id = scene_id
         start = time.perf_counter()
         result, _ = inference_multi_modality_detector(model, data["lidar_points"]["lidar_path"], str(sensor_root), str(ann_file), cam_type="all")
         elapsed_ms = (time.perf_counter() - start) * 1000.0
@@ -273,6 +288,10 @@ def main() -> int:
         labels = instances.labels_3d.detach().cpu().numpy().tolist()
         names = [MODEL_CLASSES[int(label)] for label in labels]
         transform = np.asarray(record["lidar2global"], dtype=np.float64)
+        bev_feature = bev_capture.get("feature")
+        if bev_feature is None:
+            raise RuntimeError("BEVFusion pts_neck hook did not capture a BEV feature")
+        _, temporal_stats = temporal_memory.update(bev_feature, transform)
         world_centers = transform_points(boxes[:, :3], transform) if len(boxes) else np.empty((0, 3), dtype=np.float64)
         measurements = [
             DetectionMeasurement(
@@ -286,6 +305,7 @@ def main() -> int:
         ]
         for phase_name, tracker in (("phase1", phase1_tracker), ("phase2", phase2_tracker)):
             assignments = tracker.update(measurements, timestamp_us=int(record["timestamp"]), scene_id=str(record["scene_token"]))
+            query_state = query_bank.update(assignments, bev_feature, transform) if phase_name == "phase2" else {"num_queries": 0, "num_queries_updated": 0, "mean_query_cosine": None, "query_norms": {}, "query_ages": {}}
             phase_dir = phase_outputs[phase_name]
             camera_path = phase_dir / "camera" / f"{frame_index:04d}_{record['token']}.jpg"
             bev_path = phase_dir / "bev" / f"{frame_index:04d}_{record['token']}.jpg"
@@ -319,6 +339,14 @@ def main() -> int:
                     "track_status": {str(item.track_id): item.status for item in assignments},
                     "detection_metrics": detection_and_tracking["per_class"],
                     "tracking_metrics": detection_and_tracking,
+                    "temporal_bev": {
+                        "has_previous": temporal_stats.has_previous,
+                        "feature_shape": list(temporal_stats.feature_shape),
+                        "mean_abs_delta": temporal_stats.mean_abs_delta,
+                        "cosine_similarity": temporal_stats.cosine_similarity,
+                        "valid_fraction": temporal_stats.valid_fraction,
+                    },
+                    "query_state": query_state,
                     "visuals": {"camera": str(camera_path), "bev": str(bev_path)},
                     "detections": [
                         {
@@ -332,6 +360,8 @@ def main() -> int:
                     ],
                 }
             )
+
+    bev_hook.remove()
 
     for phase_name, phase_dir in phase_outputs.items():
         evidence = all_evidence[phase_name]
@@ -354,6 +384,7 @@ def main() -> int:
             },
             "gpu_peak_memory_mb": float(torch.cuda.max_memory_allocated() / 2**20) if args.device.startswith("cuda") else None,
             "metrics": aggregate_frame_metrics(evidence),
+            "temporal_metrics": aggregate_temporal_metrics(evidence),
             "visuals": {
                 "camera_overview": str(phase_dir / "camera_overview.jpg"),
                 "bev_overview": str(phase_dir / "bev_overview.jpg"),
@@ -364,6 +395,7 @@ def main() -> int:
         aggregate = metrics["metrics"]
         det = aggregate["detection"]["per_class"]
         track = aggregate["tracking_proxy"]
+        temporal = metrics["temporal_metrics"]
         (phase_dir / "evidence.md").write_text(
             "\n".join(
                 [
@@ -389,6 +421,16 @@ def main() -> int:
                     f"- ID switches: {track['id_switches']}",
                     f"- Unique track IDs: {track['unique_track_ids']}",
                     "- This is a bounded center-distance + instance-token diagnostic, not official nuScenes AMOTA/AMOTP.",
+                    "",
+                    "## Inference-only temporal base diagnostics",
+                    "",
+                    f"- BEV frames with aligned previous feature: {temporal['temporal_bev']['frames_with_previous']}",
+                    f"- Mean temporal BEV cosine: {temporal['temporal_bev']['mean_cosine_similarity']}",
+                    f"- Mean temporal BEV absolute delta: {temporal['temporal_bev']['mean_abs_delta']}",
+                    f"- Mean valid warp fraction: {temporal['temporal_bev']['mean_valid_fraction']}",
+                    f"- Mean persistent query cosine: {temporal['query_state']['mean_query_cosine']}",
+                    f"- Max active query states: {temporal['query_state']['max_active_queries']}",
+                    "- No training was performed; these diagnostics validate feature alignment and query-state plumbing only.",
                     "",
                     f"Visuals: `{phase_dir / 'camera_overview.jpg'}` and `{phase_dir / 'bev_overview.jpg'}`.",
                     f"Machine-readable evidence: `{phase_dir / 'metrics.json'}`.",

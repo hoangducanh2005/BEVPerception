@@ -8,10 +8,11 @@ The current implementation is intentionally split into two bounded phases:
 1. **Phase 1 — BEVFusion + Kalman/Hungarian:** BEVFusion produces 3D boxes;
    a class-aware constant-velocity tracker assigns `track_id`, velocity and
    metric history with ego-motion compensation.
-2. **Phase 2 — temporal-query prototype:** the same BEVFusion detections feed a
-   persistent temporal query state. This validates the TrackFormer-style
-   interface before training a learned TrackFormer head. It is not presented as
-   a trained UniAD checkpoint.
+2. **Phase 2 — temporal-query prototype:** the frozen BEVFusion `pts_neck`
+   feature is captured, the previous BEV is ego-pose warped into the current
+   frame, and persistent query embeddings are sampled at tracked object
+   centers. This validates the TrackFormer-style interface before training a
+   learned TrackFormer head. It is not presented as a trained UniAD checkpoint.
 
 MotionFormer, OccFormer, Planner and full UniAD are outside the current scope.
 
