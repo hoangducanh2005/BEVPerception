@@ -123,11 +123,13 @@ def build_records(nusc: Any, root: Path, scene_names: list[str], frame_limit: in
                 _, boxes, _ = nusc.get_sample_data(sample["data"]["LIDAR_TOP"])
                 gt_boxes = []
                 gt_names = []
+                native_gt_names = []
                 instance_tokens = []
                 for annotation_token, box in zip(sample["anns"], boxes):
                     name = category_name(box.name)
                     gt_boxes.append([float(box.center[0]), float(box.center[1]), float(box.center[2]), float(box.wlh[1]), float(box.wlh[0]), float(box.wlh[2]), float(box.orientation.yaw_pitch_roll[0])])
                     gt_names.append(name if name in {"car", "truck", "construction_vehicle", "bus", "trailer", "barrier", "motorcycle", "bicycle", "pedestrian", "traffic_cone"} else "generic_object")
+                    native_gt_names.append(name if name in {"car", "truck", "construction_vehicle", "bus", "trailer", "barrier", "motorcycle", "bicycle", "pedestrian", "traffic_cone"} else "generic_object")
                     instance_tokens.append(nusc.get("sample_annotation", annotation_token)["instance_token"])
                 records.append(
                     {
@@ -142,6 +144,7 @@ def build_records(nusc: Any, root: Path, scene_names: list[str], frame_limit: in
                         "anns": {
                             "gt_boxes": np.asarray(gt_boxes, dtype=np.float32).reshape(-1, 7),
                             "gt_names": np.asarray([PRED_TO_COARSE.get(name, "generic_object") for name in gt_names]),
+                            "gt_native_names": np.asarray(native_gt_names),
                             "instance_tokens": instance_tokens,
                         },
                     }
