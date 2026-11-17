@@ -1,0 +1,267 @@
+{
+  "A: BEVFusion + KF/Hungarian (default)": {
+    "description": "",
+    "tracking": {
+      "AMOTA": 0.5891990110735457,
+      "AMOTP": 0.6838603494079065,
+      "recall": 0.7744430118402972,
+      "MOTA": 0.5816209392949363,
+      "IDS": 123.0,
+      "FRAG": 103.0,
+      "pedestrian": {
+        "amota": 0.7523817537503976,
+        "amotp": 0.6136713028127738,
+        "recall": 0.78472462764115,
+        "ids": 67.0,
+        "frag": 48.0
+      },
+      "bicycle": {
+        "amota": 0.5192804297996565,
+        "amotp": 1.0558446111013162,
+        "recall": 0.5752688172043011,
+        "ids": 0.0,
+        "frag": 0.0
+      },
+      "motorcycle": {
+        "amota": 0.6062519931990586,
+        "amotp": 0.8682235385506332,
+        "recall": 0.6545454545454545,
+        "ids": 1.0,
+        "frag": 1.0
+      },
+      "VRU_AMOTA": 0.6259713922497042,
+      "VRU_IDS": 68.0,
+      "VRU_FRAG": 49.0
+    },
+    "detection": {
+      "mAP": 0.6533163315576039,
+      "NDS": 0.6926314265382999,
+      "mATE": 0.2408527080111594,
+      "mAVE": 0.34816813363518473,
+      "pedestrian": {
+        "AP": 0.9047686518254603,
+        "ATE": 0.12647355404713867,
+        "AVE": 0.2186208235684913
+      },
+      "bicycle": {
+        "AP": 0.6822281910431096,
+        "ATE": 0.18077399703485336,
+        "AVE": 0.3271392935815218
+      },
+      "motorcycle": {
+        "AP": 0.6960885735526725,
+        "ATE": 0.18101341457214587,
+        "AVE": 0.5910792591771236
+      },
+      "VRU_mAP": 0.761028472140414
+    },
+    "runtime": {
+      "frames": 914,
+      "tracker_ms_mean": 1.075443071133214,
+      "tracker_ms_max": 4.389247000290197,
+      "config": {
+        "classes": [
+          "bicycle",
+          "bus",
+          "car",
+          "motorcycle",
+          "pedestrian",
+          "trailer",
+          "truck"
+        ],
+        "det_score_min": 0.1,
+        "high_score": 0.3,
+        "gates_m": {
+          "pedestrian": 1.5,
+          "bicycle": 3.0,
+          "motorcycle": 4.0,
+          "car": 4.0,
+          "truck": 4.0,
+          "bus": 5.5,
+          "trailer": 3.0
+        },
+        "accel_std": {
+          "pedestrian": 2.0,
+          "bicycle": 3.0,
+          "motorcycle": 4.0,
+          "car": 4.0,
+          "truck": 3.0,
+          "bus": 3.0,
+          "trailer": 3.0
+        },
+        "max_age": 3,
+        "min_hits": 1,
+        "use_detector_velocity": true,
+        "position_std": 0.5,
+        "velocity_std": 1.0,
+        "report_coasted": false,
+        "coast_score_decay": 0.5
+      }
+    },
+    "failures": {
+      "pedestrian": {
+        "gt": 5145,
+        "tp": 4013,
+        "idsw": 135,
+        "reid_fail_after_gap": 115,
+        "frag": 268,
+        "miss_occluded": 960,
+        "miss_visible": 172,
+        "fp": 631
+      },
+      "bicycle": {
+        "gt": 522,
+        "tp": 255,
+        "idsw": 0,
+        "reid_fail_after_gap": 1,
+        "frag": 28,
+        "miss_occluded": 175,
+        "miss_visible": 92,
+        "fp": 35
+      },
+      "motorcycle": {
+        "gt": 101,
+        "tp": 62,
+        "idsw": 0,
+        "reid_fail_after_gap": 1,
+        "frag": 6,
+        "miss_occluded": 34,
+        "miss_visible": 5,
+        "fp": 11
+      }
+    }
+  },
+  "A (thresholds tuned on mini_train)": {
+    "description": "",
+    "tracking": {
+      "AMOTA": 0.6190594237712121,
+      "AMOTP": 0.5838100544908741,
+      "recall": 0.817069328332124,
+      "MOTA": 0.5765224391893599,
+      "IDS": 143.0,
+      "FRAG": 88.0,
+      "pedestrian": {
+        "amota": 0.792865482618619,
+        "amotp": 0.48444406926807737,
+        "recall": 0.8413578108763422,
+        "ids": 80.0,
+        "frag": 44.0
+      },
+      "bicycle": {
+        "amota": 0.5670569618618659,
+        "amotp": 0.9150279631698457,
+        "recall": 0.6164874551971327,
+        "ids": 0.0,
+        "frag": 0.0
+      },
+      "motorcycle": {
+        "amota": 0.6432199369748746,
+        "amotp": 0.674458184508566,
+        "recall": 0.7545454545454545,
+        "ids": 0.0,
+        "frag": 0.0
+      },
+      "VRU_AMOTA": 0.6677141271517865,
+      "VRU_IDS": 80.0,
+      "VRU_FRAG": 44.0
+    }
+  },
+  "B: BEVFusion + temporal BEV + TrackFormer (trained on mini_train only)": {
+    "description": "",
+    "tracking": {
+      "AMOTA": 0.5361036627790903,
+      "AMOTP": 0.849245034353085,
+      "recall": 0.6190448093919555,
+      "MOTA": 0.49160439509635995,
+      "IDS": 131.0,
+      "FRAG": 129.0,
+      "pedestrian": {
+        "amota": 0.6042169820017005,
+        "amotp": 0.9038464850759723,
+        "recall": 0.6653966054728091,
+        "ids": 86.0,
+        "frag": 68.0
+      },
+      "bicycle": {
+        "amota": 0.3322470135402352,
+        "amotp": 1.3160119940093753,
+        "recall": 0.4551971326164875,
+        "ids": 0.0,
+        "frag": 0.0
+      },
+      "motorcycle": {
+        "amota": 0.519464062739176,
+        "amotp": 0.8666073548874463,
+        "recall": 0.5181818181818182,
+        "ids": 0.0,
+        "frag": 2.0
+      },
+      "VRU_AMOTA": 0.4853093527603705,
+      "VRU_IDS": 86.0,
+      "VRU_FRAG": 70.0
+    },
+    "detection": {
+      "mAP": 0.5359133538262573,
+      "NDS": 0.6115604159869941,
+      "mATE": 0.3467624071510532,
+      "mAVE": 0.41507639889698517,
+      "pedestrian": {
+        "AP": 0.7859220556136413,
+        "ATE": 0.24199637908179722,
+        "AVE": 0.2818883212004534
+      },
+      "bicycle": {
+        "AP": 0.3001536396901686,
+        "ATE": 0.31721145111011695,
+        "AVE": 0.17925993330064494
+      },
+      "motorcycle": {
+        "AP": 0.5804961975982291,
+        "ATE": 0.24824987452970798,
+        "AVE": 0.6049298599916934
+      },
+      "VRU_mAP": 0.5555239643006796
+    },
+    "runtime": {
+      "frames": 914,
+      "tracker_ms_mean": 31.511173954980418,
+      "tracker_ms_median": 31.600236001395388,
+      "temporal_bev_ms_mean": 12.584837904499079,
+      "peak_gpu_allocated_mb": 647.02587890625,
+      "score_thresh": 0.4,
+      "filter_score_thresh": 0.35
+    },
+    "failures": {
+      "pedestrian": {
+        "gt": 5145,
+        "tp": 3885,
+        "idsw": 331,
+        "reid_fail_after_gap": 177,
+        "frag": 211,
+        "miss_occluded": 935,
+        "miss_visible": 325,
+        "fp": 1540
+      },
+      "bicycle": {
+        "gt": 522,
+        "tp": 193,
+        "idsw": 17,
+        "reid_fail_after_gap": 1,
+        "frag": 15,
+        "miss_occluded": 150,
+        "miss_visible": 179,
+        "fp": 183
+      },
+      "motorcycle": {
+        "gt": 101,
+        "tp": 67,
+        "idsw": 1,
+        "reid_fail_after_gap": 1,
+        "frag": 7,
+        "miss_occluded": 30,
+        "miss_visible": 4,
+        "fp": 51
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "eval": "nuScenes devkit DetectionEval detection_cvpr_2019, mini_val (scene-0103, scene-0916, 81 keyframes)",
+  "runs": {
+    "fixed (10 sweeps, per-frame images)": {
+      "mAP": 0.5868819306469107,
+      "NDS": 0.5889530588709369,
+      "mATE": 0.40078660861957943,
+      "mAVE": 0.42923611429751063,
+      "AP_car": 0.9287061256080797,
+      "AP_truck": 0.8136855330337008,
+      "AP_bus": 0.9939221272554608,
+      "AP_pedestrian": 0.9264253567467571,
+      "AP_bicycle": 0.5745975757344507,
+      "AP_motorcycle": 0.7278250960950713,
+      "AP_traffic_cone": 0.9036574919955862,
+      "ATE_pedestrian": 0.11296438185706711,
+      "ASE_pedestrian": 0.25709501274686386,
+      "AOE_pedestrian": 0.3829838234004119,
+      "AVE_pedestrian": 0.2218581999535326,
+      "ATE_bicycle": 0.16626937941463746,
+      "ASE_bicycle": 0.24116285916111954,
+      "AOE_bicycle": 0.3556241387619674,
+      "AVE_bicycle": 0.5367771182194543,
+      "ATE_motorcycle": 0.1945717968873984,
+      "ASE_motorcycle": 0.2734167591277991,
+      "AOE_motorcycle": 0.3879574056201377,
+      "AVE_motorcycle": 0.05268867535716953,
+      "AP@0.5_pedestrian": 0.9093084741719982,
+      "AP@1.0_pedestrian": 0.9190703018259259,
+      "AP@2.0_pedestrian": 0.9271405408154393,
+      "AP@4.0_pedestrian": 0.9501821101736649,
+      "AP@0.5_bicycle": 0.5684623944785283,
+      "AP@1.0_bicycle": 0.5684623944785283,
+      "AP@2.0_bicycle": 0.5684623944785283,
+      "AP@4.0_bicycle": 0.593003119502218,
+      "AP@0.5_motorcycle": 0.6497161953086186,
+      "AP@1.0_motorcycle": 0.7295459486600966,
+      "AP@2.0_motorcycle": 0.7466855704821833,
+      "AP@4.0_motorcycle": 0.7853526699293867,
+      "VRU_mAP": 0.7429493428587598
+    },
+    "single sweep": {
+      "mAP": 0.5073740245062075,
+      "NDS": 0.4544677577744472,
+      "mATE": 0.4290794359461339,
+      "mAVE": 1.011732093139674,
+      "AP_car": 0.8833456086734339,
+      "AP_truck": 0.7712080778151423,
+      "AP_bus": 0.9491312872602956,
+      "AP_pedestrian": 0.8757829599706124,
+      "AP_bicycle": 0.3458400104458075,
+      "AP_motorcycle": 0.5823277823107538,
+      "AP_traffic_cone": 0.6661045185860293,
+      "ATE_pedestrian": 0.12754975347077985,
+      "ASE_pedestrian": 0.2964047965979533,
+      "AOE_pedestrian": 1.3379106331464046,
+      "AVE_pedestrian": 0.831158821813236,
+      "ATE_bicycle": 0.2377671978480286,
+      "ASE_bicycle": 0.2626239974445001,
+      "AOE_bicycle": 1.3166378908397285,
+      "AVE_bicycle": 2.2130925732175357,
+      "ATE_motorcycle": 0.22751718338960925,
+      "ASE_motorcycle": 0.26708442152614675,
+      "AOE_motorcycle": 0.7321886984302505,
+      "AVE_motorcycle": 0.05783433181083586,
+      "AP@0.5_pedestrian": 0.8538003285697316,
+      "AP@1.0_pedestrian": 0.865309643370183,
+      "AP@2.0_pedestrian": 0.8774161860992272,
+      "AP@4.0_pedestrian": 0.9066056818433077,
+      "AP@0.5_bicycle": 0.2929106548081988,
+      "AP@1.0_bicycle": 0.3600141314543042,
+      "AP@2.0_bicycle": 0.3604412335252419,
+      "AP@4.0_bicycle": 0.36999402199548515,
+      "AP@0.5_motorcycle": 0.4352903200518459,
+      "AP@1.0_motorcycle": 0.6049668845485646,
+      "AP@2.0_motorcycle": 0.6270983207204627,
+      "AP@4.0_motorcycle": 0.661955603922142,
+      "VRU_mAP": 0.6013169175757246
+    },
+    "stale images": {
+      "mAP": 0.5039594769226877,
+      "NDS": 0.5488921946138032,
+      "mATE": 0.4039532121999114,
+      "mAVE": 0.4153797661401506,
+      "AP_car": 0.8463644344398265,
+      "AP_truck": 0.7351428524545986,
+      "AP_bus": 0.9939221272554608,
+      "AP_pedestrian": 0.9094761654562695,
+      "AP_bicycle": 0.4222745244610283,
+      "AP_motorcycle": 0.5889421818780187,
+      "AP_traffic_cone": 0.5434724832816751,
+      "ATE_pedestrian": 0.11631536990829955,
+      "ASE_pedestrian": 0.24740836223725043,
+      "AOE_pedestrian": 0.3805575013388692,
+      "AVE_pedestrian": 0.2294285259073994,
+      "ATE_bicycle": 0.1691835298854573,
+      "ASE_bicycle": 0.19490858241958295,
+      "AOE_bicycle": 0.3348934632587106,
+      "AVE_bicycle": 0.36878237283887333,
+      "ATE_motorcycle": 0.20600180326332207,
+      "ASE_motorcycle": 0.2578890749357801,
+      "AOE_motorcycle": 0.3843239557610489,
+      "AVE_motorcycle": 0.050754766668616474,
+      "AP@0.5_pedestrian": 0.8894104720423541,
+      "AP@1.0_pedestrian": 0.9012914696121892,
+      "AP@2.0_pedestrian": 0.9103067677021932,
+      "AP@4.0_pedestrian": 0.9368959524683413,
+      "AP@0.5_bicycle": 0.4177928501245902,
+      "AP@1.0_bicycle": 0.4177928501245902,
+      "AP@2.0_bicycle": 0.4177928501245902,
+      "AP@4.0_bicycle": 0.4357195474703427,
+      "AP@0.5_motorcycle": 0.5108795661866491,
+      "AP@1.0_motorcycle": 0.5975479440231138,
+      "AP@2.0_motorcycle": 0.6178900722380244,
+      "AP@4.0_motorcycle": 0.6294511450642876,
+      "VRU_mAP": 0.6402309572651056
+    },
+    "checkpoint-1 inputs (both bugs)": {
+      "mAP": 0.3344150147887926,
+      "NDS": 0.36956927479791596,
+      "mATE": 0.4271470368235887,
+      "mAVE": 1.047547117413087,
+      "AP_car": 0.6274314260957617,
+      "AP_truck": 0.5579639732572748,
+      "AP_bus": 0.9267385863313882,
+      "AP_pedestrian": 0.7591549154774238,
+      "AP_bicycle": 0.09503695941702063,
+      "AP_motorcycle": 0.1891798266993378,
+      "AP_traffic_cone": 0.18864446060971868,
+      "ATE_pedestrian": 0.131021563220509,
+      "ASE_pedestrian": 0.28033563010882084,
+      "AOE_pedestrian": 1.3735147065044788,
+      "AVE_pedestrian": 0.8979632776541454,
+      "ATE_bicycle": 0.2183714853086996,
+      "ASE_bicycle": 0.23784577310185046,
+      "AOE_bicycle": 1.1816622212540486,
+      "AVE_bicycle": 2.5071081023532917,
+      "ATE_motorcycle": 0.22392548215812272,
+      "ASE_motorcycle": 0.2508114172763284,
+      "AOE_motorcycle": 0.7222757408375845,
+      "AVE_motorcycle": 0.05763868365252554,
+      "AP@0.5_pedestrian": 0.735674997621565,
+      "AP@1.0_pedestrian": 0.7477686527034169,
+      "AP@2.0_pedestrian": 0.7590295748481549,
+      "AP@4.0_pedestrian": 0.7941464367365586,
+      "AP@0.5_bicycle": 0.07083532975669139,
+      "AP@1.0_bicycle": 0.10283986299075226,
+      "AP@2.0_bicycle": 0.10283986299075226,
+      "AP@4.0_bicycle": 0.10363278192988663,
+      "AP@0.5_motorcycle": 0.14183767449789106,
+      "AP@1.0_motorcycle": 0.1855176997454128,
+      "AP@2.0_motorcycle": 0.20512247680048512,
+      "AP@4.0_motorcycle": 0.22424145575356225,
+      "VRU_mAP": 0.3477905671979274
+    }
+  },
+  "runtime_full_mini": {
+    "frames": 404,
+    "use_sweeps": true,
+    "stale_images": false,
+    "model_ms_mean": 634.7117761271779,
+    "model_ms_median": 642.8536930002338,
+    "preprocess_ms_mean": 434.11728046632845,
+    "model_fps": 1.5755182708310564,
+    "end_to_end_fps": 0.9356033070312729,
+    "peak_gpu_allocated_mb": 2294.69091796875,
+    "peak_gpu_reserved_mb": 2588.0,
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "note": "first 3 frames excluded from timing statistics (warm-up)",
+    "box_convention": "mmdet3d_v1_bottom_z (legacy dims/yaw + gravity-z corrected)"
+  },
+  "vru_recall_by_range_2m": {
+    "score>=0.1": {
+      "pedestrian": {
+        "0-15m": {
+          "gt": 372,
+          "recall": 0.997
+        },
+        "15-30m": {
+          "gt": 534,
+          "recall": 0.964
+        },
+        "30-40m": {
+          "gt": 154,
+          "recall": 0.896
+        },
+        "all_0-40m": {
+          "gt": 1060,
+          "recall": 0.966
+        }
+      },
+      "bicycle": {
+        "0-15m": {
+          "gt": 12,
+          "recall": 0.833
+        },
+        "15-30m": {
+          "gt": 19,
+          "recall": 0.579
+        },
+        "30-40m": {
+          "gt": 5,
+          "recall": 0.4
+        },
+        "all_0-40m": {
+          "gt": 36,
+          "recall": 0.639
+        }
+      },
+      "motorcycle": {
+        "0-15m": {
+          "gt": 74,
+          "recall": 0.77
+        },
+        "15-30m": {
+          "gt": 103,
+          "recall": 0.709
+        },
+        "30-40m": {
+          "gt": 35,
+          "recall": 0.657
+        },
+        "all_0-40m": {
+          "gt": 212,
+          "recall": 0.722
+        }
+      }
+    },
+    "score>=0.3": {
+      "pedestrian": {
+        "0-15m": {
+          "gt": 372,
+          "recall": 0.933
+        },
+        "15-30m": {
+          "gt": 534,
+          "recall": 0.79
+        },
+        "30-40m": {
+          "gt": 154,
+          "recall": 0.747
+        },
+        "all_0-40m": {
+          "gt": 1060,
+          "recall": 0.834
+        }
+      },
+      "bicycle": {
+        "0-15m": {
+          "gt": 12,
+          "recall": 0.5
+        },
+        "15-30m": {
+          "gt": 19,
+          "recall": 0.526
+        },
+        "30-40m": {
+          "gt": 5,
+          "recall": 0.4
+        },
+        "all_0-40m": {
+          "gt": 36,
+          "recall": 0.5
+        }
+      },
+      "motorcycle": {
+        "0-15m": {
+          "gt": 74,
+          "recall": 0.73
+        },
+        "15-30m": {
+          "gt": 103,
+          "recall": 0.534
+        },
+        "30-40m": {
+          "gt": 35,
+          "recall": 0.4
+        },
+        "all_0-40m": {
+          "gt": 212,
+          "recall": 0.58
+        }
+      }
+    }
+  },
+  "note": "all rows evaluated after the full box-convention fix (dims/yaw + gravity z); z matters for the devkit's 3D bike-rack filter"
+}

@@ -36,3 +36,7 @@ reports/phase*/figures/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# checkpoint-2 evaluation copies (large, regenerable)
+results/**/filtered_*.json
+results/**/submission_*.json

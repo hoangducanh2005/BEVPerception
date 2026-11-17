@@ -16,6 +16,28 @@ The current implementation is intentionally split into two bounded phases:
 
 MotionFormer, OccFormer, Planner and full UniAD are outside the current scope.
 
+## Checkpoint 2 (current): VRU 3D detection + tracking, official nuScenes metrics
+
+Pipeline: 6 cameras + LiDAR → frozen BEVFusion → temporal BEV (ego-aligned,
+motion-gated) → **A** Kalman/Hungarian or **B** UniAD-style TrackFormer (a port
+verified against UniAD, trained on BEVFusion features). Everything is evaluated
+with the official nuScenes devkit.
+
+| Test set | BEVFusion VRU mAP | A: AMOTA / VRU AMOTA | B: AMOTA / VRU AMOTA |
+|---|---:|---:|---:|
+| mini_val (2 scenes, 81 frames) | 0.743 | 0.741 / 0.676 | 0.530 / 0.321 |
+| val-23 (23 trainval val scenes, 914 frames) | 0.761 | 0.589 / 0.626 | 0.536 / 0.485 |
+
+Checkpoint-1 detection and tracking numbers below are **superseded**. They
+came from inputs without LiDAR sweeps and with stale camera images
+(`reports/phase_00_audit.md`).
+
+* Reports: `reports/phase_00_audit.md` … `reports/phase_05_evaluation.md`,
+  `reports/final_technical_report.md`
+* Handoff: `docs/handoff/checkpoint_2.md`
+* End-to-end live run:
+  `python scripts/cp2_online_pipeline.py --tracker {query,kf} --output-dir <dir> [--render <dir>]`
+
 ## Current bounded run
 
 The local evidence run deliberately does not scan the complete datasets:

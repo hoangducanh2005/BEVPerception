@@ -1,0 +1,47 @@
+{
+  "A: BEVFusion + KF/Hungarian (default)": {
+    "description": "Baseline A, hyper-parameters fixed a priori",
+    "track_eval": "results/phase_03/kf_default",
+    "det_eval": "results/phase_01/bevfusion_mini_val",
+    "runtime": "artifacts/checkpoint_2/phase_03/kf_default/runtime.json",
+    "detector_runtime": "artifacts/checkpoint_2/phase_01/mini_all/runtime.json",
+    "failures": "results/phase_05/failures_A.json"
+  },
+  "A (thresholds tuned on mini_train)": {
+    "description": "high_score 0.2 + coasted output, chosen on mini_train",
+    "track_eval": "results/phase_05/A_tuned_on_train",
+    "runtime": "artifacts/checkpoint_2/phase_05/A_tuned_on_train/runtime.json"
+  },
+  "B: BEVFusion + temporal BEV + TrackFormer (UniAD thresholds)": {
+    "description": "Proposed B, trained on mini_train, UniAD lifecycle thresholds (birth 0.4 / filter 0.35)",
+    "track_eval": "results/phase_04/main_temporal_track",
+    "det_eval": "results/phase_04/main_temporal_det",
+    "runtime": "artifacts/checkpoint_2/phase_04/infer_main_temporal/runtime.json",
+    "failures": "results/phase_05/failures_B.json"
+  },
+  "B (thresholds tuned on mini_train)": {
+    "description": "grid on mini_train selected birth 0.4 / filter 0.35 = the UniAD default, i.e. identical to B",
+    "track_eval": "results/phase_04/main_temporal_track"
+  },
+  "B without temporal BEV (ablation)": {
+    "description": "same as B but adapter sees only the current BEV",
+    "track_eval": "results/phase_04/notemporal_track",
+    "det_eval": "results/phase_04/notemporal_det",
+    "runtime": "artifacts/checkpoint_2/phase_04/infer_ablation_notemporal/runtime.json"
+  },
+  "Reference: UniAD-B stage-1 (camera-only, own detector)": {
+    "description": "official UniAD checkpoint, same split and devkit (~/GIT/UniAD/research_outputs)",
+    "track_eval": "/home/anhhd/GIT/UniAD/research_outputs/metrics/track_map_mini_val_nusc/track",
+    "det_eval": "/home/anhhd/GIT/UniAD/research_outputs/metrics/track_map_mini_val_nusc/det"
+  },
+  "A (live online run)": {
+    "description": "cp2_online_pipeline.py --tracker kf (no caches)",
+    "track_eval": "results/phase_05/online_A",
+    "runtime": "artifacts/checkpoint_2/phase_05/online_A/runtime.json"
+  },
+  "B (live online run)": {
+    "description": "cp2_online_pipeline.py --tracker query (no caches, fp32 BEV)",
+    "track_eval": "results/phase_05/online_B",
+    "runtime": "artifacts/checkpoint_2/phase_05/online_B/runtime.json"
+  }
+}

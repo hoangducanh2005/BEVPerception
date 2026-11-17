@@ -1,0 +1,7 @@
+{
+  "A: BEVFusion + KF/Hungarian (default)": {"track_eval": "results/phase_05/A_val23_track", "det_eval": "results/phase_05/bevfusion_val23_det",
+     "runtime": "artifacts/checkpoint_2/phase_05/A_val23/runtime.json", "failures": "results/phase_05/failures_A_val23.json"},
+  "A (thresholds tuned on mini_train)": {"track_eval": "results/phase_05/A_tuned_val23_track"},
+  "B: BEVFusion + temporal BEV + TrackFormer (trained on mini_train only)": {"track_eval": "results/phase_05/B_mini_val23_track", "det_eval": "results/phase_05/B_mini_val23_det",
+     "runtime": "artifacts/checkpoint_2/phase_05/B_mini_val23/runtime.json", "failures": "results/phase_05/failures_B_mini_val23.json"}
+}

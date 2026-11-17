@@ -27,6 +27,18 @@ class ConstantVelocityKalman:
         self.state = transition @ self.state
         self.covariance = transition @ self.covariance @ transition.T + process
 
+    def update_position_velocity(
+        self, position_xy: np.ndarray, velocity_xy: np.ndarray, *, position_std: float = 0.5, velocity_std: float = 1.0
+    ) -> None:
+        """Joint update with a measured position and a measured (detector) velocity."""
+
+        measurement = np.r_[np.asarray(position_xy, dtype=np.float64).reshape(2), np.asarray(velocity_xy, dtype=np.float64).reshape(2)]
+        noise = np.diag([position_std**2, position_std**2, velocity_std**2, velocity_std**2])
+        innovation = measurement - self.state
+        gain = self.covariance @ np.linalg.inv(self.covariance + noise)
+        self.state = self.state + gain @ innovation
+        self.covariance = (np.eye(4) - gain) @ self.covariance
+
     def update(self, position_xy: np.ndarray, *, measurement_std: float = 0.7) -> None:
         measurement = np.asarray(position_xy, dtype=np.float64).reshape(2)
         observation = np.array([[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0]], dtype=np.float64)

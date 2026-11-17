@@ -1,0 +1,759 @@
+{
+  "score_thr": 0.3,
+  "counts": {
+    "pedestrian": {
+      "gt": 1060,
+      "tp": 884,
+      "idsw": 27,
+      "reid_fail_after_gap": 9,
+      "frag": 41,
+      "miss_occluded": 130,
+      "miss_visible": 46,
+      "fp": 168
+    },
+    "bicycle": {
+      "gt": 36,
+      "tp": 18,
+      "idsw": 0,
+      "reid_fail_after_gap": 0,
+      "frag": 0,
+      "miss_occluded": 15,
+      "miss_visible": 3,
+      "fp": 8
+    },
+    "motorcycle": {
+      "gt": 212,
+      "tp": 123,
+      "idsw": 0,
+      "reid_fail_after_gap": 0,
+      "frag": 21,
+      "miss_occluded": 70,
+      "miss_visible": 19,
+      "fp": 9
+    }
+  },
+  "events": [
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 17
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 3,
+      "class": "pedestrian",
+      "id": 21
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 1,
+      "to": 45
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 1
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 23
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 46
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 34,
+      "to": 30
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 23
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 6
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 30,
+      "to": 34
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 23
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 53
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 43
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0103",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 38,
+      "to": 61
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 61
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 35
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 61
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 16,
+      "class": "pedestrian",
+      "id": 57
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 35
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 61,
+      "to": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 13
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 38,
+      "to": 61
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 14
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 18
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 26,
+      "class": "pedestrian",
+      "id": 15
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 26,
+      "class": "pedestrian",
+      "id": 61
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 71
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 32,
+      "class": "motorcycle",
+      "id": 101
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0103",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 85,
+      "to": 114
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 114
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 35,
+      "class": "motorcycle",
+      "id": 101
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 114,
+      "to": 118
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0103",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 118,
+      "to": 114
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0103",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 57
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 2,
+      "class": "pedestrian",
+      "id": 144
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 2,
+      "class": "pedestrian",
+      "id": 148
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 3,
+      "class": "pedestrian",
+      "id": 147
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 3,
+      "class": "pedestrian",
+      "id": 135
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 146,
+      "to": 164
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 133,
+      "to": 147
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 164,
+      "to": 133
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 5,
+      "class": "pedestrian",
+      "id": 133
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 147,
+      "to": 179
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 179
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 164,
+      "to": 133
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 147,
+      "to": 188
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 188
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 167,
+      "to": 186
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 186
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 133,
+      "to": 191
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 191
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 133,
+      "to": 191
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 11,
+      "class": "motorcycle",
+      "id": 184
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 191
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 191,
+      "to": 133
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 12,
+      "class": "motorcycle",
+      "id": 172
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 188,
+      "to": 136
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 136
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 191,
+      "to": 133
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 133,
+      "to": 191
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 141
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 13,
+      "class": "motorcycle",
+      "id": 203
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 179
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 136,
+      "to": 164
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 13,
+      "class": "motorcycle",
+      "id": 195
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 133,
+      "to": 188
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 141,
+      "to": 175
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 15,
+      "class": "motorcycle",
+      "id": 172
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0916",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 188,
+      "to": 191
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 15,
+      "class": "pedestrian",
+      "id": 191
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 191,
+      "to": 133
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 15,
+      "class": "motorcycle",
+      "id": 176
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 16,
+      "class": "pedestrian",
+      "id": 179
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 191,
+      "to": 188
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 133,
+      "to": 191
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 16,
+      "class": "motorcycle",
+      "id": 201
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 17,
+      "class": "motorcycle",
+      "id": 203
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 188,
+      "to": 147
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 17,
+      "class": "motorcycle",
+      "id": 176
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 18,
+      "class": "motorcycle",
+      "id": 195
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 147,
+      "to": 188
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 158,
+      "to": 135
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 18,
+      "class": "motorcycle",
+      "id": 201
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 135,
+      "to": 179
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0916",
+      "frame": 19,
+      "class": "pedestrian",
+      "from": 145,
+      "to": 146
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 20,
+      "class": "motorcycle",
+      "id": 172
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 21,
+      "class": "motorcycle",
+      "id": 176
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 23,
+      "class": "motorcycle",
+      "id": 195
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 23,
+      "class": "motorcycle",
+      "id": 201
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 25,
+      "class": "motorcycle",
+      "id": 178
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 25,
+      "class": "motorcycle",
+      "id": 195
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 26,
+      "class": "motorcycle",
+      "id": 176
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0916",
+      "frame": 28,
+      "class": "motorcycle",
+      "id": 195
+    }
+  ]
+}

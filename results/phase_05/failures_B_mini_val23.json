@@ -1,0 +1,5892 @@
+{
+  "score_thr": 0.3,
+  "counts": {
+    "pedestrian": {
+      "gt": 5145,
+      "tp": 3885,
+      "idsw": 331,
+      "reid_fail_after_gap": 177,
+      "frag": 211,
+      "miss_occluded": 935,
+      "miss_visible": 325,
+      "fp": 1540
+    },
+    "bicycle": {
+      "gt": 522,
+      "tp": 193,
+      "idsw": 17,
+      "reid_fail_after_gap": 1,
+      "frag": 15,
+      "miss_occluded": 150,
+      "miss_visible": 179,
+      "fp": 183
+    },
+    "motorcycle": {
+      "gt": 101,
+      "tp": 67,
+      "idsw": 1,
+      "reid_fail_after_gap": 1,
+      "frag": 7,
+      "miss_occluded": 30,
+      "miss_visible": 4,
+      "fp": 51
+    }
+  },
+  "events": [
+    {
+      "type": "idsw",
+      "scene": "scene-0003",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 26
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 33
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 33
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 33,
+      "to": 42
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 15,
+      "class": "pedestrian",
+      "id": 42
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 42
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 28,
+      "to": 55
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 33,
+      "to": 60
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 42,
+      "to": 63
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 63
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 42,
+      "to": 73
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 73
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0003",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 63,
+      "to": 60
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0003",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 52
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0003",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 63
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0003",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 63,
+      "to": 60
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 34,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0003",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 63
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0003",
+      "frame": 38,
+      "class": "pedestrian",
+      "id": 63
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0013",
+      "frame": 30,
+      "class": "bicycle",
+      "id": 19
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0013",
+      "frame": 35,
+      "class": "bicycle",
+      "id": 19
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0015",
+      "frame": 20,
+      "class": "bicycle",
+      "id": 13
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 7,
+      "to": 4
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 4,
+      "to": 7
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 16
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 11,
+      "to": 10
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 15,
+      "to": 3
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 13,
+      "to": 17
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 4,
+      "class": "pedestrian",
+      "id": 16
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 3,
+      "to": 26
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 4,
+      "class": "pedestrian",
+      "id": 26
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 14,
+      "to": 30
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 30
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 2,
+      "to": 0
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 32
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 32
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 24
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 31,
+      "to": 19
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 30
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 12
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 3,
+      "to": 26
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 26,
+      "to": 37
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 30
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 30
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 32
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 10,
+      "to": 40
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 31
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 31
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 16,
+      "to": 39
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 39
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 31,
+      "to": 19
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 32,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 19,
+      "to": 43
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 45
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 45
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 19,
+      "to": 38
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 30
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 43,
+      "to": 19
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 51
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 38,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 47,
+      "to": 46
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 38,
+      "to": 19
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 30,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 46,
+      "to": 49
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 19,
+      "to": 38
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 52
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 40,
+      "to": 39
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "id": 39
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 51,
+      "to": 53
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 46,
+      "to": 49
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 51
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 49,
+      "to": 45
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 41
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 41,
+      "to": 55
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 49,
+      "to": 46
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 55,
+      "to": 41
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 36,
+      "to": 59
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 59
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 39
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 51,
+      "to": 12
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 41,
+      "to": 65
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 41,
+      "to": 55
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 53,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 53
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 21,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 21,
+      "class": "pedestrian",
+      "from": 56,
+      "to": 72
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 21,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 19,
+      "to": 38
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 38,
+      "to": 19
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 23,
+      "class": "pedestrian",
+      "id": 68
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 23,
+      "class": "pedestrian",
+      "id": 61
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 66
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 52
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 36,
+      "to": 59
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 66,
+      "to": 86
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 59,
+      "to": 85
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 17
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 65,
+      "to": 97
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 73,
+      "to": 98
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 28,
+      "class": "pedestrian",
+      "id": 98
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 19,
+      "to": 100
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 12
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 86
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 38,
+      "to": 101
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 101
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 83,
+      "to": 84
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 100,
+      "to": 101
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 100
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 31,
+      "class": "pedestrian",
+      "id": 87
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 31,
+      "class": "pedestrian",
+      "id": 74
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 100,
+      "to": 17
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 103,
+      "to": 102
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 102
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 110
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 33,
+      "class": "pedestrian",
+      "id": 110
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 34,
+      "class": "pedestrian",
+      "id": 102
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 129
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 55,
+      "to": 126
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 36,
+      "class": "pedestrian",
+      "id": 126
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 130
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 74
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 74
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0016",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 117
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 83,
+      "to": 84
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0016",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 69,
+      "to": 133
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 130,
+      "to": 84
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0016",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 130
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 7,
+      "to": 47
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 47,
+      "to": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 54
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 47
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 54,
+      "to": 52
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 54,
+      "to": 52
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 54
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 52
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 47,
+      "to": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 47
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 10,
+      "to": 101
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 47
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 47,
+      "to": 95
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 54,
+      "to": 60
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 54
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 47,
+      "to": 95
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 103
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 103
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 95,
+      "to": 47
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 99
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 101,
+      "to": 95
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 54,
+      "to": 52
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 95,
+      "to": 101
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 98,
+      "to": 63
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 101,
+      "to": 47
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 63,
+      "to": 98
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 99,
+      "to": 73
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 62,
+      "to": 128
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 95,
+      "to": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 98,
+      "to": 63
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 47
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 73,
+      "to": 99
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 99,
+      "to": 73
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 94,
+      "to": 140
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 77,
+      "to": 78
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 78
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 63
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 94
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 109,
+      "to": 152
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 15,
+      "class": "pedestrian",
+      "id": 152
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 16,
+      "class": "pedestrian",
+      "id": 73
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 140,
+      "to": 158
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 47
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 10,
+      "to": 163
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 181
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 47
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 19,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 183
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 19,
+      "class": "pedestrian",
+      "from": 163,
+      "to": 10
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 20,
+      "class": "motorcycle",
+      "id": 155
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 22,
+      "class": "motorcycle",
+      "id": 155
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 190,
+      "to": 176
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 176,
+      "to": 182
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 176,
+      "to": 177
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 177
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 240
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 240
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 28,
+      "class": "pedestrian",
+      "id": 128
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 251,
+      "to": 240
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 176,
+      "to": 209
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 240,
+      "to": 176
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 209,
+      "to": 240
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 228,
+      "to": 177
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 209,
+      "to": 176
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 240,
+      "to": 209
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 276,
+      "to": 282
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 282,
+      "to": 269
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 226,
+      "to": 223
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 165
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 165
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 282,
+      "to": 269
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 165,
+      "to": 251
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 222,
+      "to": 223
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 271,
+      "to": 222
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 269,
+      "to": 225
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 251,
+      "to": 165
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 269,
+      "to": 282
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 223,
+      "to": 222
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 182
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 278,
+      "to": 309
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 272,
+      "to": 276
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 182,
+      "to": 177
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 240,
+      "to": 251
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 222,
+      "to": 280
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 165,
+      "to": 240
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "id": 240
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 225,
+      "to": 272
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 189,
+      "to": 247
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 222,
+      "to": 223
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 176,
+      "to": 315
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 315
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 182,
+      "to": 177
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 274,
+      "to": 271
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 309,
+      "to": 312
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 276,
+      "to": 272
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 223,
+      "to": 222
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 182
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 282,
+      "to": 278
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 223,
+      "to": 222
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 225,
+      "to": 269
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 269,
+      "to": 268
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 312,
+      "to": 309
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 222,
+      "to": 223
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 315
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 182
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 182,
+      "to": 177
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 280,
+      "to": 325
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 222,
+      "to": 223
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 271,
+      "to": 274
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 309,
+      "to": 312
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 251,
+      "to": 240
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "id": 240
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 282,
+      "to": 278
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 278,
+      "to": 309
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 273,
+      "to": 267
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "id": 267
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 223,
+      "to": 222
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 182,
+      "to": 177
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 167,
+      "to": 165
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 267,
+      "to": 273
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 182
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 240,
+      "to": 167
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0017",
+      "frame": 39,
+      "class": "pedestrian",
+      "id": 240
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 1,
+      "to": 44
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 2,
+      "class": "pedestrian",
+      "id": 53
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 6,
+      "to": 1
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 5,
+      "to": 60
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 91
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "id": 91
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 93
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 1,
+      "to": 6
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 21
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "id": 64
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 44
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 5,
+      "to": 60
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 4,
+      "class": "pedestrian",
+      "id": 53
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 4,
+      "class": "pedestrian",
+      "id": 6
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 5
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 4,
+      "to": 44
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 5,
+      "class": "pedestrian",
+      "id": 3
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 5,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 21
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 36,
+      "to": 34
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 23
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 4
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 44
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 5
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 86
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 4,
+      "to": 44
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 4
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 3
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 6
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 104
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 3
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 53,
+      "to": 119
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 5,
+      "to": 118
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 118
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 91,
+      "to": 0
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 0
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 3
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 53
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 6
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 118,
+      "to": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 21
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 8
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 113
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 44
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 104
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 53,
+      "to": 119
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 118
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 118
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 108
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 104,
+      "to": 44
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 12,
+      "class": "pedestrian",
+      "id": 23
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 4
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 44
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 6,
+      "to": 0
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 0
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 138
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 138
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 108
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 21
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 21
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 5
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 14,
+      "class": "bicycle",
+      "id": 129
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 29,
+      "to": 8
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 0
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 21
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 44
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 90,
+      "to": 154
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 0
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 113,
+      "to": 158
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 16,
+      "class": "pedestrian",
+      "id": 158
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 155,
+      "to": 149
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 17,
+      "class": "bicycle",
+      "id": 129
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 132
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 20,
+      "class": "bicycle",
+      "from": 129,
+      "to": 173
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 108,
+      "to": 177
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 177
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 20,
+      "class": "bicycle",
+      "id": 129
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 155,
+      "to": 149
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 21,
+      "class": "bicycle",
+      "from": 129,
+      "to": 179
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 86,
+      "to": 183
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 22,
+      "class": "pedestrian",
+      "id": 183
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 107,
+      "to": 149
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 22,
+      "class": "pedestrian",
+      "id": 149
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 22,
+      "class": "pedestrian",
+      "id": 166
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 155,
+      "to": 148
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 192
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "bicycle",
+      "from": 173,
+      "to": 179
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 149,
+      "to": 166
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 166,
+      "to": 149
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 189
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 86,
+      "to": 182
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 23,
+      "class": "bicycle",
+      "from": 179,
+      "to": 178
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 192,
+      "to": 198
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 4,
+      "to": 195
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "id": 195
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 183,
+      "to": 182
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 155,
+      "to": 148
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "id": 148
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 192
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 24,
+      "class": "pedestrian",
+      "id": 192
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 3,
+      "to": 201
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 201
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 198,
+      "to": 208
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 26,
+      "class": "pedestrian",
+      "id": 208
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 138,
+      "to": 206
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 26,
+      "class": "pedestrian",
+      "id": 206
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 201
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 148,
+      "to": 211
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 192
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 27,
+      "class": "bicycle",
+      "from": 178,
+      "to": 129
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 28,
+      "class": "bicycle",
+      "from": 179,
+      "to": 202
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 166,
+      "to": 149
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 149,
+      "to": 166
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 206,
+      "to": 208
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 28,
+      "class": "bicycle",
+      "from": 129,
+      "to": 203
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 149,
+      "to": 211
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 211
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 29,
+      "class": "bicycle",
+      "from": 202,
+      "to": 178
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 148
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 29,
+      "class": "bicycle",
+      "from": 203,
+      "to": 202
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "pedestrian",
+      "id": 132
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 182,
+      "to": 227
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "bicycle",
+      "from": 178,
+      "to": 129
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 166,
+      "to": 148
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 211,
+      "to": 224
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "pedestrian",
+      "id": 224
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 30,
+      "class": "bicycle",
+      "from": 202,
+      "to": 178
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 148,
+      "to": 166
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 31,
+      "class": "bicycle",
+      "from": 178,
+      "to": 203
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 149,
+      "to": 166
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 184,
+      "to": 232
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 232
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 32,
+      "class": "bicycle",
+      "from": 203,
+      "to": 178
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 29,
+      "to": 247
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 247
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 166,
+      "to": 255
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 224,
+      "to": 250
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "id": 250
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 148,
+      "to": 249
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 220,
+      "to": 257
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "id": 257
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 149,
+      "to": 211
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 211,
+      "to": 263
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 263
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 148,
+      "to": 261
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 261
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 250,
+      "to": 211
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 211,
+      "to": 250
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 249,
+      "to": 272
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 250,
+      "to": 274
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 166,
+      "to": 255
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0018",
+      "frame": 39,
+      "class": "pedestrian",
+      "id": 255
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0018",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 253,
+      "to": 275
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0018",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 274,
+      "to": 249
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0035",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 31
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0035",
+      "frame": 29,
+      "class": "motorcycle",
+      "id": 78
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0035",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 93
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0035",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 94,
+      "to": 122
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 1,
+      "class": "bicycle",
+      "from": 17,
+      "to": 46
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0036",
+      "frame": 2,
+      "class": "pedestrian",
+      "id": 40
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 2,
+      "class": "bicycle",
+      "from": 44,
+      "to": 29
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 3,
+      "class": "bicycle",
+      "from": 46,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 68,
+      "to": 67
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 5,
+      "class": "bicycle",
+      "from": 29,
+      "to": 83
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0036",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 79
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0036",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 81,
+      "to": 101
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0036",
+      "frame": 9,
+      "class": "pedestrian",
+      "id": 101
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 40,
+      "to": 88
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 88,
+      "to": 40
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 40,
+      "to": 88
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 88,
+      "to": 40
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 40,
+      "to": 88
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 88,
+      "to": 40
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0036",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 40,
+      "to": 88
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0036",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 151
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0036",
+      "frame": 36,
+      "class": "bicycle",
+      "id": 203
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0038",
+      "frame": 12,
+      "class": "motorcycle",
+      "id": 7
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0038",
+      "frame": 15,
+      "class": "motorcycle",
+      "id": 6
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0038",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 15,
+      "to": 24
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0038",
+      "frame": 18,
+      "class": "pedestrian",
+      "id": 24
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0038",
+      "frame": 19,
+      "class": "pedestrian",
+      "id": 22
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0038",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 27
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0038",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 27
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0038",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 24,
+      "to": 29
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0038",
+      "frame": 23,
+      "class": "pedestrian",
+      "id": 29
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0039",
+      "frame": 3,
+      "class": "motorcycle",
+      "from": 16,
+      "to": 25
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0039",
+      "frame": 19,
+      "class": "pedestrian",
+      "id": 49
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0039",
+      "frame": 32,
+      "class": "bicycle",
+      "id": 70
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0092",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 35
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0092",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 43,
+      "to": 32
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0092",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 32,
+      "to": 43
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0092",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 43
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0092",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 43,
+      "to": 51
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0092",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 51
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0093",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 13,
+      "to": 55
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0093",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 13
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0093",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 13,
+      "to": 12
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0093",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 49,
+      "to": 87
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0093",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 87
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0093",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 67
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0093",
+      "frame": 16,
+      "class": "pedestrian",
+      "id": 87
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0094",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 57,
+      "to": 59
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0094",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 59,
+      "to": 60
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0094",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 59,
+      "to": 57
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0094",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 59
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0094",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 57
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 6,
+      "to": 15
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 16,
+      "to": 7
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 15,
+      "to": 6
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 15
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 28,
+      "to": 31
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 6,
+      "to": 35
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 5,
+      "class": "pedestrian",
+      "id": 35
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 7,
+      "to": 16
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 5,
+      "class": "pedestrian",
+      "id": 16
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 16,
+      "to": 0
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 15,
+      "to": 0
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 0
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 13,
+      "class": "pedestrian",
+      "id": 31
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 31,
+      "to": 40
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 35,
+      "to": 0
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 19,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 45
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 19,
+      "class": "pedestrian",
+      "id": 45
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 19,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 44
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 19,
+      "class": "pedestrian",
+      "id": 44
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 21,
+      "class": "pedestrian",
+      "from": 40,
+      "to": 31
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 21,
+      "class": "pedestrian",
+      "id": 31
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 44
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 44,
+      "to": 45
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 24,
+      "to": 54
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 31,
+      "to": 24
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 26,
+      "class": "pedestrian",
+      "id": 24
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 54,
+      "to": 24
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 24,
+      "to": 31
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 0
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 45
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 61
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 24,
+      "to": 63
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 0,
+      "to": 45
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 31,
+      "to": 24
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 61,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 61
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 24,
+      "to": 63
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 61,
+      "to": 50
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0095",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 45
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0095",
+      "frame": 38,
+      "class": "pedestrian",
+      "id": 45
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 45,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0095",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 50,
+      "to": 61
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 18
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 18,
+      "to": 8
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0096",
+      "frame": 5,
+      "class": "pedestrian",
+      "id": 19
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 18,
+      "to": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 18
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 18
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 18,
+      "to": 8
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 24,
+      "to": 22
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0096",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 22,
+      "to": 50
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 18,
+      "class": "pedestrian",
+      "from": 69,
+      "to": 78
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 78,
+      "to": 99
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0096",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 79,
+      "to": 123
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 110,
+      "to": 129
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0096",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 129,
+      "to": 147
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 4,
+      "to": 25
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 25,
+      "to": 49
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 25,
+      "to": 4
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 34,
+      "to": 59
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 15,
+      "class": "pedestrian",
+      "id": 59
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 49,
+      "to": 60
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 15,
+      "class": "pedestrian",
+      "id": 60
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 58
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 19,
+      "class": "pedestrian",
+      "id": 58
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 59
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 21,
+      "class": "pedestrian",
+      "from": 58,
+      "to": 60
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 21,
+      "class": "pedestrian",
+      "id": 60
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 4,
+      "to": 60
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 76
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 58
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 58,
+      "to": 60
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 26,
+      "class": "pedestrian",
+      "id": 59
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 60,
+      "to": 4
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 93,
+      "to": 104
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 104,
+      "to": 93
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0097",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 107,
+      "to": 101
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0097",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 101
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0097",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 101,
+      "to": 100
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0098",
+      "frame": 4,
+      "class": "pedestrian",
+      "id": 3
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0099",
+      "frame": 23,
+      "class": "pedestrian",
+      "id": 83
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 102
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 102,
+      "to": 117
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 117,
+      "to": 87
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 117
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0099",
+      "frame": 32,
+      "class": "motorcycle",
+      "id": 126
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 117,
+      "to": 87
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0099",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 115
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0099",
+      "frame": 34,
+      "class": "pedestrian",
+      "id": 123
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0099",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 83,
+      "to": 149
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0099",
+      "frame": 36,
+      "class": "pedestrian",
+      "id": 123
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 102,
+      "to": 87
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 102
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0099",
+      "frame": 37,
+      "class": "motorcycle",
+      "from": 126,
+      "to": 160
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0099",
+      "frame": 37,
+      "class": "motorcycle",
+      "id": 160
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 102
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0099",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 102,
+      "to": 87
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0100",
+      "frame": 21,
+      "class": "bicycle",
+      "from": 68,
+      "to": 74
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0100",
+      "frame": 21,
+      "class": "bicycle",
+      "id": 74
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0100",
+      "frame": 24,
+      "class": "bicycle",
+      "id": 74
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0100",
+      "frame": 24,
+      "class": "bicycle",
+      "id": 29
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0100",
+      "frame": 33,
+      "class": "bicycle",
+      "id": 29
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 12,
+      "class": "bicycle",
+      "id": 14
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 46,
+      "to": 82
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 80,
+      "to": 91
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 16,
+      "class": "bicycle",
+      "id": 14
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 86
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 91,
+      "to": 80
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 82
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 18,
+      "class": "bicycle",
+      "id": 14
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 80,
+      "to": 91
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 21,
+      "class": "pedestrian",
+      "from": 91,
+      "to": 80
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 86,
+      "to": 131
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 22,
+      "class": "pedestrian",
+      "id": 131
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 116
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 128,
+      "to": 143
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 24,
+      "class": "pedestrian",
+      "id": 143
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 116,
+      "to": 84
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 105,
+      "to": 97
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 127
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 82,
+      "to": 146
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 70,
+      "to": 151
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 92,
+      "to": 156
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 48,
+      "to": 70
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 134,
+      "to": 132
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 156,
+      "to": 92
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 132,
+      "to": 134
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 92,
+      "to": 162
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 28,
+      "class": "pedestrian",
+      "id": 143
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 84,
+      "to": 116
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 115,
+      "to": 169
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 127,
+      "to": 115
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 134,
+      "to": 132
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 116,
+      "to": 129
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 115,
+      "to": 127
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 132,
+      "to": 177
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 31,
+      "class": "pedestrian",
+      "id": 143
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 169
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 80,
+      "to": 145
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 90,
+      "to": 134
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 162,
+      "to": 92
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 146,
+      "to": 97
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 92,
+      "to": 162
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 169
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 34,
+      "class": "pedestrian",
+      "id": 169
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 178
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 169,
+      "to": 183
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 36,
+      "class": "pedestrian",
+      "id": 154
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0101",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 162,
+      "to": 92
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 177,
+      "to": 188
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0101",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 134,
+      "to": 189
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0101",
+      "frame": 38,
+      "class": "pedestrian",
+      "id": 189
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 1,
+      "class": "pedestrian",
+      "from": 9,
+      "to": 39
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 39,
+      "to": 9
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 23
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 2,
+      "class": "pedestrian",
+      "from": 23,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 3,
+      "class": "pedestrian",
+      "from": 23,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 23
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 4,
+      "class": "pedestrian",
+      "from": 21,
+      "to": 20
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 4,
+      "class": "pedestrian",
+      "id": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 23,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 5,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 57
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 6,
+      "class": "pedestrian",
+      "from": 9,
+      "to": 65
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 6,
+      "class": "pedestrian",
+      "id": 9
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 36,
+      "to": 12
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 65,
+      "to": 9
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 62
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 57
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 16,
+      "to": 69
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 69
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "from": 22,
+      "to": 35
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 7,
+      "class": "pedestrian",
+      "id": 35
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 9,
+      "to": 73
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 20,
+      "to": 6
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 9,
+      "to": 71
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 71
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 8,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 52
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 8,
+      "class": "pedestrian",
+      "id": 52
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 73,
+      "to": 9
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 9,
+      "class": "pedestrian",
+      "from": 71,
+      "to": 8
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 6,
+      "to": 83
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 83
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 35,
+      "to": 80
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 80
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 12
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 78
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 10,
+      "class": "pedestrian",
+      "id": 78
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 12
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 11,
+      "class": "pedestrian",
+      "from": 8,
+      "to": 71
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 11,
+      "class": "pedestrian",
+      "id": 57
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 12,
+      "class": "pedestrian",
+      "from": 71,
+      "to": 41
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 13,
+      "class": "pedestrian",
+      "from": 12,
+      "to": 83
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 83
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 14
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 83,
+      "to": 12
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 14,
+      "to": 52
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 41,
+      "to": 90
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "id": 90
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 14,
+      "class": "pedestrian",
+      "from": 78,
+      "to": 17
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 14,
+      "to": 52
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 15,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 14
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 9,
+      "to": 41
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 16,
+      "class": "pedestrian",
+      "from": 52,
+      "to": 17
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 17,
+      "class": "pedestrian",
+      "from": 17,
+      "to": 95
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 17,
+      "class": "pedestrian",
+      "id": 95
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 19,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 100
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 19,
+      "class": "pedestrian",
+      "id": 100
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 104
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 104
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 20,
+      "class": "pedestrian",
+      "from": 56,
+      "to": 101
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 20,
+      "class": "pedestrian",
+      "id": 101
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 21,
+      "class": "pedestrian",
+      "id": 100
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 107,
+      "to": 99
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 85
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 114
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 22,
+      "class": "pedestrian",
+      "from": 85,
+      "to": 87
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 23,
+      "class": "pedestrian",
+      "from": 109,
+      "to": 119
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 23,
+      "class": "pedestrian",
+      "id": 100
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 119,
+      "to": 109
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 122
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 24,
+      "class": "pedestrian",
+      "from": 114,
+      "to": 118
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 24,
+      "class": "pedestrian",
+      "id": 87
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 24,
+      "class": "pedestrian",
+      "id": 100
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 25,
+      "class": "pedestrian",
+      "id": 63
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 122,
+      "to": 96
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 25,
+      "class": "pedestrian",
+      "from": 117,
+      "to": 125
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 120
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 120,
+      "to": 96
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 26,
+      "class": "pedestrian",
+      "from": 87,
+      "to": 128
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 120,
+      "to": 96
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 125,
+      "to": 118
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 118
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 135
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 135
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 134
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "from": 118,
+      "to": 125
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 27,
+      "class": "pedestrian",
+      "id": 97
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 28,
+      "class": "pedestrian",
+      "id": 113
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 120
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 85,
+      "to": 139
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 128,
+      "to": 142
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 125,
+      "to": 118
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 28,
+      "class": "pedestrian",
+      "from": 97,
+      "to": 125
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 120,
+      "to": 96
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 118,
+      "to": 143
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 143
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 100
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "id": 118
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 142,
+      "to": 138
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 29,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 120
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 96,
+      "to": 120
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 130,
+      "to": 141
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 129,
+      "to": 133
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 30,
+      "class": "pedestrian",
+      "id": 133
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 30,
+      "class": "pedestrian",
+      "from": 120,
+      "to": 96
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 109,
+      "to": 150
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "id": 150
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 134,
+      "to": 109
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "id": 109
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 138,
+      "to": 153
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 118,
+      "to": 120
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "id": 120
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 31,
+      "class": "pedestrian",
+      "from": 125,
+      "to": 118
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 133
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 137
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 100,
+      "to": 157
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 32,
+      "class": "pedestrian",
+      "id": 157
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 109,
+      "to": 150
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 32,
+      "class": "pedestrian",
+      "from": 154,
+      "to": 132
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 141,
+      "to": 159
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 33,
+      "class": "pedestrian",
+      "id": 137
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 137,
+      "to": 162
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 33,
+      "class": "pedestrian",
+      "from": 132,
+      "to": 154
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 159,
+      "to": 141
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 34,
+      "class": "pedestrian",
+      "id": 126
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 34,
+      "class": "pedestrian",
+      "from": 120,
+      "to": 118
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 126,
+      "to": 163
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 35,
+      "class": "pedestrian",
+      "from": 141,
+      "to": 165
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 35,
+      "class": "pedestrian",
+      "id": 165
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 163,
+      "to": 126
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 36,
+      "class": "pedestrian",
+      "from": 162,
+      "to": 137
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 126,
+      "to": 163
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 126
+    },
+    {
+      "type": "reid_fail",
+      "scene": "scene-0102",
+      "frame": 37,
+      "class": "pedestrian",
+      "from": 163,
+      "to": 169
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 37,
+      "class": "pedestrian",
+      "id": 169
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 38,
+      "class": "pedestrian",
+      "from": 169,
+      "to": 126
+    },
+    {
+      "type": "frag",
+      "scene": "scene-0102",
+      "frame": 39,
+      "class": "pedestrian",
+      "id": 126
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 126,
+      "to": 169
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 167,
+      "to": 168
+    },
+    {
+      "type": "idsw",
+      "scene": "scene-0102",
+      "frame": 39,
+      "class": "pedestrian",
+      "from": 168,
+      "to": 167
+    }
+  ]
+}
